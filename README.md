@@ -2,7 +2,7 @@
 
 Sets up reground workspace with wstool
 
-Prerequisites: [Movit! Robot Manipulation Framework](http://moveit.ros.org/)
+Prerequisites: [wstool](http://wiki.ros.org/wstool), [Movit! Robot Manipulation Framework](http://moveit.ros.org/)
 
 Run `wstool update -t src` in reground workspace root
 
