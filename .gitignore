@@ -1,0 +1,9 @@
+*.bag
+.DS_Store
+CMakeCache.txt
+CMakeFiles
+.catkin_workspace
+build/
+install/
+logs/
+devel/

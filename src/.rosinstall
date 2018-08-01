@@ -1,0 +1,20 @@
+- git:
+    local-name: rail_manipulation_msgs 
+    uri: https://github.com/GT-RAIL/rail_manipulation_msgs
+    version: develop
+- git:
+    local-name: wpi_jaco
+    uri: https://github.com/ksatyaki/wpi_jaco 
+    version: develop
+- git:
+    local-name: arm/jaco_manipulation
+    uri: https://github.com/ksatyaki/jaco_manipulation
+    version: jaco2 
+- git:
+    local-name: arm/pick_up_action
+    uri: https://github.com/ksatyaki/pick_up_action 
+    version: master 
+- git:
+    local-name: arm/manipulation_launch
+    uri: https://github.com/ksatyaki/manipulation_launch 
+    version: master
