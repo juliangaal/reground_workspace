@@ -2,7 +2,7 @@
 
 Sets up reground workspace with wstool
 
-Prerequisites: [Movit! Robot Manipulation Framework](http://moveit.ros.org/)
+Prerequisites: [wstool](http://wiki.ros.org/wstool), [Moveit! Robot Manipulation Framework](http://moveit.ros.org/)
 
 Run `wstool update -t src` in reground workspace root
 
@@ -17,3 +17,5 @@ roslaunch manipulation_launch manipulation.launch
 An RViz window should open with Moveit! ready to be used
 
 *Note*: If you have any problems with dependencies, try running `rosdep install --from-paths src -i -y`
+
+Additionally, use the provided `.install_apts.sh` script to install the MoveIt! packages and more.
