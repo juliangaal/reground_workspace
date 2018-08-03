@@ -14,7 +14,3 @@
     local-name: arm/pick_up_action
     uri: https://github.com/ksatyaki/pick_up_action 
     version: master 
-- git:
-    local-name: arm/manipulation_launch
-    uri: https://github.com/ksatyaki/manipulation_launch 
-    version: master
