@@ -10,3 +10,8 @@
     local-name: arm/jaco_manipulation
     uri: https://github.com/juliangaal/jaco_manipulation
     version: jaco2_reground
+- git:
+    local-name: anchoring
+    uri: https://bitbucket.org/reground/anchoring
+    version: master
+    
