@@ -14,3 +14,7 @@
     local-name: anchoring
     uri: https://bitbucket.org/juliangaal/anchoring-dependencies
     version: master
+- git:
+    local-name: reground_api
+    uri: https://github.com/juliangaal/reground_api
+    version: master
