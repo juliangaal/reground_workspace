@@ -13,6 +13,7 @@ To check if everything worked fine, run (in reground workspace root)
 ```
 catkin_make --pkg anchor_msgs
 catkin_make --pkg hand_tracking
+catkin_make --pkg anchor_caffe
 catkin_make -j8
 source devel/setup.<insert bash/sh/zsh>
 roslaunch manipulation_launch manipulation.launch
