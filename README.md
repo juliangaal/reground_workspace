@@ -6,10 +6,13 @@ Prerequisites: [wstool](http://wiki.ros.org/wstool), [Moveit! Robot Manipulation
 
 Run `wstool update -t src` in reground workspace root
 
+Follow installation instructions for Caffe and other individual packages [here](https://bitbucket.org/reground/anchoring/src/master/)
+
 To check if everything worked fine, run (in reground workspace root)
 
 ```
-catkin_make
+catkin_make --pkg anchor_msgs
+catkin_make -j8
 source devel/setup.<insert bash/sh/zsh>
 roslaunch manipulation_launch manipulation.launch
 ```
