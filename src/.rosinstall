@@ -12,7 +12,7 @@
     version: jaco2_reground
 - git:
     local-name: anchoring
-    uri: https://bitbucket.org/juliangaal/anchoring-dependencies
+    uri: https://bitbucket.org/reground/anchoring
     version: master
 - git:
     local-name: reground_api
