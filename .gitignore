@@ -7,3 +7,5 @@ build/
 install/
 logs/
 devel/
+.idea
+src
