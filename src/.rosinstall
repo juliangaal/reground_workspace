@@ -18,3 +18,7 @@
     local-name: arm/reground_api
     uri: https://github.com/juliangaal/reground_api
     version: master
+- git:
+    local-name: arm/arm_services
+    uri: https://github.com/juliangaal/arm_services
+    version: master
