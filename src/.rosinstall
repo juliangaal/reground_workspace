@@ -15,6 +15,6 @@
     uri: https://bitbucket.org/reground/anchoring
     version: master
 - git:
-    local-name: reground_api
+    local-name: arm/reground_api
     uri: https://github.com/juliangaal/reground_api
     version: master
