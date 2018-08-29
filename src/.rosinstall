@@ -1,24 +1,24 @@
 - git:
     local-name: arm/drivers/rail_manipulation_msgs
-    uri: https://github.com/GT-RAIL/rail_manipulation_msgs
+    uri: https://github.com/GT-RAIL/rail_manipulation_msgs.git
     version: develop
 - git:
     local-name: arm/drivers/wpi_jaco
-    uri: https://github.com/ksatyaki/wpi_jaco 
+    uri: https://github.com/ksatyaki/wpi_jaco.git
     version: develop
 - git:
     local-name: arm/reground/jaco_manipulation
-    uri: https://github.com/juliangaal/jaco_manipulation
+    uri: https://github.com/juliangaal/jaco_manipulation.git
     version: jaco2_reground
 - git:
     local-name: anchoring
-    uri: https://bitbucket.org/reground/anchoring
+    uri: https://bitbucket.org/reground/anchoring.git
     version: master
 - git:
     local-name: arm/reground/reground_api
-    uri: https://github.com/juliangaal/reground_api
+    uri: https://github.com/juliangaal/reground_api.git
     version: master
 - git:
     local-name: arm/reground/arm_services
-    uri: https://github.com/juliangaal/arm_services
+    uri: https://github.com/juliangaal/arm_services.git
     version: master
