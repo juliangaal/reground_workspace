@@ -2,15 +2,20 @@
 
 Sets up reground workspace with wstool
 
-Prerequisites: [wstool](http://wiki.ros.org/wstool), [Moveit! Robot Manipulation Framework](http://moveit.ros.org/)
+## Prerequisites: 
 
-Run `wstool update -t src` in reground workspace root
+* [wstool](http://wiki.ros.org/wstool)
+* [Moveit! Robot Manipulation Framework](http://moveit.ros.org/)
 
-Follow installation instructions for Caffe and other individual packages [here](https://bitbucket.org/reground/anchoring/src/master/)
-
-To check if everything worked fine, run (in reground workspace root)
+## Installation
+* Run `wstool update -t src` in reground workspace root
+* Follow installation instructions for Caffe [here](https://bitbucket.org/reground/anchoring/src/master/anchor_caffe/)
+* Follow installation instructions for Kinect2 driver [here](https://github.com/code-iai/iai_kinect2) 
+* May need installation: other individual packages [here](https://bitbucket.org/reground/anchoring/src/master/)
 
 ```
+cd <workspace_root>
+rosdep install --from-paths src -i -y # for dependecies
 catkin_make -j8
 source devel/setup.<insert bash/sh/zsh>
 roslaunch manipulation_launch manipulation.launch
