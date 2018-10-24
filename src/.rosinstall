@@ -17,7 +17,7 @@
 - git:
     local-name: arm/jaco_manipulation
     uri: https://github.com/juliangaal/jaco_manipulation
-    version: pre-pose-impl
+    version: jaco2_reground
 - git:
     local-name: arm/arm_service
     uri: https://github.com/juliangaal/arm_service
