@@ -1,12 +1,4 @@
 - git:
-    local-name: arm/reground/jaco_manipulation
-    uri: https://github.com/juliangaal/jaco_manipulation
-    version: jaco2_reground
-- git:
-    local-name: arm/reground/arm_service
-    uri: https://github.com/juliangaal/arm_service
-    version: master
-- git:
     local-name: arm/drivers/wpi_jaco
     uri: https://github.com/ksatyaki/wpi_jaco
     version: develop
@@ -21,6 +13,14 @@
 - git:
     local-name: brain/language
     uri: https://bitbucket.org/reground/language.git
+    version: master
+- git:
+    local-name: arm/jaco_manipulation
+    uri: https://github.com/juliangaal/jaco_manipulation
+    version: pre-pose-impl
+- git:
+    local-name: arm/arm_service
+    uri: https://github.com/juliangaal/arm_service
     version: master
 - git:
     local-name: anchoring
