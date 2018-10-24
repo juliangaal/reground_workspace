@@ -14,18 +14,19 @@ Sets up reground workspace with wstool
 * Follow installation instructions for Kinect2 driver [here](https://github.com/code-iai/iai_kinect2) 
 * May need installation: other individual packages [here](https://bitbucket.org/reground/anchoring/src/master/)
 
-```
-cd <workspace_root>
-catkin_make -j8
-source devel/setup.<bash/zsh>
-roslaunch manipulation_launch manipulation.launch use_rviz:=true
-```
-
-An RViz window should open with Moveit! ready to be used
-
-*Note*: If you have any problems with dependencies, try running `rosdep install --from-paths src -i -y`
-
 Additionally, use the provided `.install_apts.sh` script to install the MoveIt! packages and more.
+
+### Individual Usage
+* Arm: follow instructions in jaco_manipulation [here](https://github.com/juliangaal/jaco_manipulation)
+* Anchoring: follow instructions in anchoring [here](https://bitbucket.org/reground/anchoring/src/master/)
+* Language: follow instructions in language [here](https://bitbucket.org/reground/language/src/master/)
+
+### Full Usage
+The indivisual packages have a lot of output. You are advised to start them not all at once. Of course, you can call multiple launch files from one, if desired
+* Arm: 
+  * Jaco robotic arm `roslaunch jaco_manipulation jaco_manipulation.launch <options>` *Options described [here](https://github.com/juliangaal/jaco_manipulation)
+  * Arm service: communication layer between Anchoring system and robotic arm `rosrun arm_service arm_service_node`
+* Brain handles communcation of all packages and language intput, and starts anchoring and language: `roslaunch brain freeze.launch`
 
 ## Videos
 See the projekt in action [here]()
