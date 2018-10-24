@@ -26,3 +26,7 @@
     local-name: anchoring
     uri: https://bitbucket.org/reground/anchoring
     version: master
+- git:
+    local-name: arm/jaco_manipulation_test
+    uri: https://github.com/juliangaal/jaco_manipulation_test.git
+    version: master
