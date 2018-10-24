@@ -18,7 +18,7 @@ Sets up reground workspace with wstool
 cd <workspace_root>
 catkin_make -j8
 source devel/setup.<bash/zsh>
-roslaunch manipulation_launch manipulation.launch
+roslaunch manipulation_launch manipulation.launch use_rviz:=true
 ```
 
 An RViz window should open with Moveit! ready to be used
