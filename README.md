@@ -24,7 +24,7 @@ Additionally, use the provided `.install_apts.sh` script to install the MoveIt! 
 ### Full Usage
 The indivisual packages have a lot of output. You are advised to start them not all at once. Of course, you can call multiple launch files from one, if desired
 * Arm: 
-  * Jaco robotic arm `roslaunch jaco_manipulation jaco_manipulation.launch <options>` *Options described [here](https://github.com/juliangaal/jaco_manipulation)
+  * Jaco robotic arm `roslaunch jaco_manipulation jaco_manipulation.launch <options>` *Options described [here](https://github.com/juliangaal/jaco_manipulation)*
   * Arm service: communication layer between Anchoring system and robotic arm `rosrun arm_service arm_service_node`
 * Brain handles communcation of all packages and language intput, and starts anchoring and language: `roslaunch brain freeze.launch`
 
